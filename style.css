@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h3{
+  color: white;
+}
+
+body {
+  font-family:Lato, sans-serif;
+  font-size: larger;
+}
+
+#menu{
+  height: 40px;
+}
+
+
+#Index{
+  color: white;
+  font-weight: bold;
+  background-color: rgb(12, 73, 143);
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 10px,0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+#menu ul {
+  display: flex;
+  text-align: center;
+  margin-left: 250px;
+  visibility: front;
+}
+
+
+#header{
+  background-color:white;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+p.header-text{
+  font-size: 20px;
+  color: rgb(12, 73, 143);
+}
+.header-text{
+  margin-top: 40px;
+  margin: 5px;
+  color: rgb(12, 73, 143);
+}
+
+.paragraph-text {
+  line-height: 35px;
+  margin-left: 40px;
+}
+
+#right-wrap{
+  font-size: 50px;
+  text-align: end;
+  /* float: right; */
+  margin-right: 180px;
+  padding: 50px;
+}
+
+#left-wrap{
+  float: left;
+  margin-left: 180px;
+}
+
+#image-profile {
+  width:200px;
+  margin-left: 60px;
+  border-radius: 200px;
+  border: 9px solid rgb(12, 73, 143);
+  z-index: 0;
+}
+
+#Body-CV{
+  background-color: rgb(12, 73, 143);
+}
+
+#Habilidades{
+  float: left;
+  line-height:1.5;
+  text-align: center;
+  width: 30%;
+}
+
+#Hard-Skills{
+  float: right;
+  line-height:1.5;
+  text-align: center;
+  width: 40%;
+}
+
+#Idiomas{
+  float: right;
+  line-height:1.5;
+  text-align: center;
+  width: 30%;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+}
+
+.list-text {
+  color:white;
+  padding: 0;
+}
+
+list{
+}
+
+h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h3#Paixoes {
+  clear: both;
+  border-top: 3px solid white;
+}
+
+p.paragraph-text {
+  text-align: justify;
+  line-height: 1.5;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#Paixoes{
+  clear: both;
+  
+  padding: 20px;
+}
