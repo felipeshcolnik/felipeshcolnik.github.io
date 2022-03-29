@@ -1,0 +1,292 @@
+@IMPORT url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Poor Story", cursive;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about-me {
+  background-color: orange;
+  border-bottom: solid black 2px;
+  height: 50vh;
+}
+
+#about-text {
+  margin-left:35px;
+  margin-right: 85px;
+  margin-top: 0;
+  text-align: justify;
+  text-justify: center;
+  font-family: roboto, arial, helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+#about-me-title {
+  margin-top: orange, 2px solid;
+  color: black;
+  font-family: roboto, arial, helvetica, sans-serif;
+  padding: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+#dev-icon {
+  height: auto;
+  max-width:100px;
+  max-height:75px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: auto;
+}
+
+.footer-icons {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#footer_ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: solid black 2px;
+}
+
+#gitHub-Icon {
+  /* background-color:black; */
+  padding: 0px;
+  text-align: left;
+  height:50px;
+  margin-left: 5px;
+}
+
+h1.title-fullName {
+  font-family: Poppins, sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 {
+  color: orange;
+  padding: 20px;
+}
+
+#job{
+  color: orange;
+  padding: 0px;
+  margin: 0px;
+  font-family: roboto, arial, helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+
+
+.polaroid-pict {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  
+}
+.polaroid-pict > img{
+  max-width: 100%;
+  height: auto;
+}
+.polaroid-caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2em;
+}
+.polaroid-div {
+  margin-left: 20px;
+  width: 25%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+}
+.polaroid-div .polaroid-pict:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.polaroid-div:nth-of-type(4n+1) {
+  transform: scale(0.8, 0.8) rotate(5deg);
+  transition: all 0.35s;
+}
+.polaroid-div:nth-of-type(4n+1) .polaroid-pict:before {
+  transform: rotate(6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+}
+.polaroid-div:nth-of-type(4n+2) {
+  transform: scale(0.8, 0.8) rotate(-5deg);
+  transition: all 0.35s;
+}
+.polaroid-div:nth-of-type(4n+2) .polaroid-pict:before {
+  transform: rotate(-6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+}
+.polaroid-div:nth-of-type(4n+4) {
+  transform: scale(0.8, 0.8) rotate(3deg);
+  transition: all 0.35s;
+}
+.polaroid-div:nth-of-type(4n+4) .polaroid-pict:before {
+  transform: rotate(4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+.polaroid-div:nth-of-type(4n+3) {
+  transform: scale(0.8, 0.8) rotate(-3deg);
+  transition: all 0.35s;
+}
+.polaroid-div:nth-of-type(4n+3) .polaroid-pict:before {
+  transform: rotate(-4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+.polaroid-div:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(0deg) !important;
+  transition: all 0.35s;
+}
+.polaroid-div:hover .polaroid-pict:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transform: rotate(0deg);
+  height: 90%;
+  width: 90%;
+  bottom: 0%;
+  right: 5%;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
+  transition: all 0.35s;
+}
+
+#profilePicture {
+  border-radius: 100%;
+  height: 200px;
+  margin: 0, 100px;
+  /* width: 200px; */
+}
+
+.projects{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#project-books {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+
+.projects-container p{
+  color: orange;
+}
+
+.projects-container{
+  height: 95vh;
+}
+
+.project-frame {
+  width: 30%;
+}
+
+#project-pixel {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+#project-datafly {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+
+#project-recipes {
+  /* width: 150px; */
+  height: 150px;
+  border-radius: 100%;
+}
+#projects-title {
+  font-family: roboto, arial, helvetica, sans-serif;
+}
+
+#project-wallet {
+  /* max-width: 150px;
+  max-height: 150px; */
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+
+#skill-title {
+  background-color: white;
+  color: orange;
+  font-family: roboto, arial, helvetica, sans-serif;
+  padding: 20px;
+  margin: 0px;
+}
+
+.skill-list {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: 0px;
+  height: 46vh;
+}
+
+.skill-icon {
+  padding: 20px;
+  /* display:flex;
+  align-items: row; */
+  /* flex-wrap: wrap;
+  /* width: 30%; */
+  /* size: 50%; */
+}
+
+.title-content {
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
