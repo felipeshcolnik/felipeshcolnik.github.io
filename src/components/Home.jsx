@@ -60,8 +60,10 @@ class Home extends React.Component {
               </a>
             </div>
             <div className= "project-frame">
-              <img className= "project-pict" id="project-pixel" src="/images/icon-pixel.jpg" alt="human face in pixels"/>
-              <p>Website where you can draw anything<br/>setting the pixel size and color you want to print</p>
+              <a href="https://github.com/felipeshcolnik/PixelArt" target="_blank" rel="noopener noreferrer">
+                <img className= "project-pict" id="project-pixel" src="/images/icon-pixel.jpg" alt="human face in pixels"/>
+                <p>Website where you can draw anything<br/>setting the pixel size and color you want to print</p>
+              </a>
             </div>
             <div className= "project-frame">
               <a href="https://github.com/felipeshcolnik/Books-Manager-Api" target="_blank" rel="noopener noreferrer">
@@ -70,8 +72,10 @@ class Home extends React.Component {
               </a>
             </div>
             <div className= "project-frame">
-              <img className= "project-pict" id="project-datafly" src="/images/icon-airport2.jpg" alt="airport departure screen"/>
-              <p>lines of code using mongoDb to filter and lookup<br/>different informations from a database flies</p>
+              <a href="https://github.com/felipeshcolnik/DataFlight_Mongo" target="_blank" rel="noopener noreferrer">
+                <img className= "project-pict" id="project-datafly" src="/images/icon-airport2.jpg" alt="airport departure screen"/>
+                <p>lines of code using mongoDb to filter and lookup<br/>different informations from a database flies</p>
+              </a>
             </div>
           </div>
         </div>
