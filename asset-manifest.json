@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/felipeshcolnik.github.io/static/css/main.70f6df09.css",
-    "main.js": "/felipeshcolnik.github.io/static/js/main.0694b316.js",
-    "static/js/787.28cb0dcd.chunk.js": "/felipeshcolnik.github.io/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/felipeshcolnik.github.io/index.html",
-    "main.70f6df09.css.map": "/felipeshcolnik.github.io/static/css/main.70f6df09.css.map",
-    "main.0694b316.js.map": "/felipeshcolnik.github.io/static/js/main.0694b316.js.map",
-    "787.28cb0dcd.chunk.js.map": "/felipeshcolnik.github.io/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.70f6df09.css",
+    "main.js": "/static/js/main.b6445bb5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/index.html",
+    "main.70f6df09.css.map": "/static/css/main.70f6df09.css.map",
+    "main.b6445bb5.js.map": "/static/js/main.b6445bb5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70f6df09.css",
-    "static/js/main.0694b316.js"
+    "static/js/main.b6445bb5.js"
   ]
 }
