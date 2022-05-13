@@ -5,7 +5,7 @@ import Wallet from './components/Wallet';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Home/>} />
