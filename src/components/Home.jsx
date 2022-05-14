@@ -5,7 +5,9 @@ class Home extends React.Component {
     return (
       <div>
         <header>
-          <img id="gitHub-Icon" src="/images/github.jpg" alt="gitHub-Icon"/>
+          <a href="https://github.com/felipeshcolnik?tab=repositories" target='blank' >
+            <img id="gitHub-Icon" src="/images/github.jpg" alt="gitHub-Icon"/>
+          </a>
         </header>
         <section className="title-container"> 
           <main className="title-content">
