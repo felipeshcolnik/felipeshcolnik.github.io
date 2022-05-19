@@ -62,7 +62,7 @@ class Home extends React.Component {
               </a>
             </div>
             <div className= "project-frame">
-              <a href="https://github.com/felipeshcolnik.github.io/pixel-art-2.0/" target="_blank" rel="noopener noreferrer">
+              <a href="https://felipeshcolnik.github.io/Pixel-Art-2.0/" target="_blank" rel="noopener noreferrer">
                 <img className= "project-pict" id="project-pixel" src="/images/icon-pixel.jpg" alt="human face in pixels"/>
                 <p>Website where you can draw anything<br/>setting the pixel size and color you want to print</p>
               </a>
