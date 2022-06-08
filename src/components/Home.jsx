@@ -14,6 +14,10 @@ class Home extends React.Component {
             <img id="dev-icon" src="/images/dev-icon.png" alt="dev-icon"/>
             <h1 className="title-fullName">Felipe Shcolnik</h1>
             <h2 id="job">Software Developer</h2>
+            <div className="scrollDown">
+              <span> scroll down</span>
+              <img src="/images/icons8-double-down-50.png" id="scrollDown-img" alt="scroll-down-icon" />
+            </div>
           </main>
         </section>
         <section className="about-me">
